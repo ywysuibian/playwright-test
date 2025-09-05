@@ -26,7 +26,7 @@ def test_parabank_e2e_flow():
         assert page.locator("h1.title").text_content() == "Welcome " + username
         register_page.page.wait_for_timeout(1000)
 
-        home_page = register_page.logout()
+        # home_page = register_page.logout()
 
         # step 3, login
 
