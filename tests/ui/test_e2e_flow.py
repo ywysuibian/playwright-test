@@ -10,7 +10,7 @@ from utils.config import BASE_URL
 
 def test_parabank_e2e_flow():
     with sync_playwright() as p:
-        browser = p.chromium.launch(channel="chrome", headless=False)  # 用本地 Chrome
+        browser = p.chromium.launch(channel="chrome", headless=True)  # 用本地 Chrome
         page = browser.new_page()
 
         # step 1, open Para bank home page
