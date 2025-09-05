@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/ywysuibian/playwright-test/issues"
   },
-  "homepage": "https://github.com/ywysuibian/playwright-test#readme"
+  "homepage": "https://github.com/ywysuibian/playwright-test#readme",
+  "dependencies": {
+    "@playwright/test": "^1.55.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1"
+  }
 }
